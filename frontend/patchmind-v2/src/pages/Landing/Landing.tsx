@@ -7,11 +7,9 @@ export default function Landing() {
     <>
       <Navbar />
 
-      <main className="mx-auto flex min-h-[calc(100vh-80px)] max-w-7xl py-12">
-        <div className="flex w-full">
-          <AuthPanel />
-          <ProductShowcase />
-        </div>
+      <main className="mx-auto flex min-h-[calc(100vh-72px)] max-w-7xl px-8">
+        <AuthPanel />
+        <ProductShowcase />
       </main>
     </>
   );

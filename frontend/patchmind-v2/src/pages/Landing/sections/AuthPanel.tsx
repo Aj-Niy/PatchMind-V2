@@ -1,7 +1,7 @@
 export default function AuthPanel() {
   return (
-    <section className="flex w-1/2 items-center">
-      <div className="max-w-md">
+    <section className="flex flex-1 items-center justify-center mt-12 mb-12">
+      <div className="w-full max-w-md">
         <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-600">
           PatchMind
         </p>
